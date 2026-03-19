@@ -1,0 +1,9 @@
+requests>=2.31
+beautifulsoup4>=4.12
+feedparser>=6.0
+python-dateutil>=2.9
+playwright>=1.44          # only needed for JS-rendered sources (type=playwright)
+lxml>=5.0                 # faster BS4 parser (optional but recommended)
+google-genai>=1.0         # Gemini API for enrichment (replaces deprecated google-generativeai)
+pydantic>=2.0             # structured outputs
+python-dotenv>=1.0        # load .env for SMTP / API credentials (optional)
